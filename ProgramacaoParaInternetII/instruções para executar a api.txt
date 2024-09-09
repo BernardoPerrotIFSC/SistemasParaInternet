@@ -1,0 +1,24 @@
+1.criar ambiente:
+python -m venv fastapi_env
+
+2.criar a pasta do projeto
+mkdir first_app
+
+3.entrar na pasta
+cd first_app
+
+4.abrir visual studio code
+code .
+
+5.carregar o ambiente
+-abrir o terminal no vsc
+- ..\fastapi_env\Scripts\activate
+
+6.copiar o arquivo 'albums.py' para 
+a pasta do projeto
+
+7.rodar a api
+uvicorn albums:app --reload
+
+8.testar a api no navegador
+http://127.0.0.1:8000/albums
